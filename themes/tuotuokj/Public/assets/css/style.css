@@ -1,0 +1,310 @@
+@charset "utf-8";
+
+h1,h2,h3,h4,h5,h6{font-weight:100;}
+.wrap{width:1200px;margin:0 auto;max-width:1200px;}
+
+
+.head{height:100px;width:100%; background: #fff;min-width:1200px;}
+.head .logo{width:210px;height:66px;float:left;margin:15px 0 0 0px;}
+.head .logo a{width:210px;height:66px;background:url("../img/logo.gif")/*tpa=http://www.tuotuokj.com/themes/tuotuokj/Public/assets/img/logo.gif*/ no-repeat;display:block;}
+
+.navbg{width:650px;height:71px;margin:10px 0 0 180px;float:left;text-align: left;}
+.nav{width:650px;height:71px;margin:0px;}
+.nav li{float:left;}
+.nav li a{text-align:center;font-size:16px;color:#333;padding:10px 20px;margin:25px 30px 0 0; border-radius:20px; background: #fff;display:block;color:#000;}
+.nav li a:hover, .nav li a:hover.on,.nav li a.on,.nav li:hover.on{ border-radius:20px;background:#285096;text-decoration:none;color:#fff;}
+
+.shangcheng{float:right;width:120px; position: absolute; right:0;}
+.shangcheng a{text-align:center;font-size:18px;color:#f08d28;padding:10px 20px;margin:35px 0 0 0; border-radius:20px; background: #fff; border: 1px solid  #f08d28; display:block;}
+.shangcheng a:hover{ text-decoration: none; background:#f08d28;color:#fff;}
+#qrcode_bg {background: url("../img/code.png")/*tpa=http://www.tuotuokj.com/themes/tuotuokj/Public/assets/img/code.png*/; display:none; width:351px; height:184px;z-index:10000; position: relative;right:240px;}
+
+
+
+.banners{width:100%;padding:0px;height:600px; background: #fff;overflow: hidden;margin:0 auto;min-width:1200px;clear:both;}
+.sbanners{width:100%;background:url("../img/sbanner.png")/*tpa=http://www.tuotuokj.com/themes/tuotuokj/Public/assets/img/sbanner.png*/ center top #fff;padding:0px;height:395px; overflow: hidden; position:relative; z-index: 0;left:0px;top:0px;}
+
+/* 广告 */
+.fullSlide{width:100%;position:relative;height:600px;background:#fff;}
+.fullSlide .bd{margin:0 auto;position:relative;z-index:0;overflow:hidden;}
+.fullSlide .bd ul{width:100% !important;}
+.fullSlide .bd li{width:100% !important;height:600px;overflow:hidden;text-align:center;}
+.fullSlide .bd li a{display:block;height:600px;}
+.fullSlide .hd{width:100%;position:absolute;z-index:1;bottom:0;left:0;height:30px;line-height:30px;}
+.fullSlide .hd ul{text-align:center;}
+.fullSlide .hd ul li{cursor:pointer;display:inline-block;*display:inline;zoom:1;width:10px;height:10px;margin:1px 2px;overflow:hidden;border-radius:7px;border:2px solid #000;filter:alpha(opacity=50);opacity:0.5;line-height:999px;}
+.fullSlide .hd ul .on{background:#f00;}
+.fullSlide .prev,.fullSlide .next{display:block;position:absolute;z-index:1;top:50%;margin-top:-30px;left:5%;z-index:1;width:40px;height:60px;background:url("../img/slider-arrow.png")/*tpa=http://www.tuotuokj.com/themes/tuotuokj/Public/assets/img/slider-arrow.png*/ -126px -137px #f06261 no-repeat;cursor:pointer;filter:alpha(opacity=50);opacity:0.5;display:none;}
+.fullSlide .next{left:auto;right:5%;background-position:-6px -137px;}
+
+
+/*首页 start*/
+
+.proad{width:380px;float:left;height:380px;}
+.pronav{width:790px;float:left;background:url("../img/promenubg.gif")/*tpa=http://www.tuotuokj.com/themes/tuotuokj/Public/assets/img/promenubg.gif*/ no-repeat;height:350px;padding:30px 0 0 30px;}
+.protit{color:#cdcbcc;font-size:24px;}
+.protit h4{font-weight:bold;}
+.protit h4 span{color:#a1cf49;}
+.protit p{ text-decoration: underline;height;30px;line-height:30px;padding:15px 0;}
+
+.procate{background:url("../img/procage.gif")/*tpa=http://www.tuotuokj.com/themes/tuotuokj/Public/assets/img/procage.gif*/ no-repeat 0 16px;padding:0 0 0 35px;width:750px;height:200px;margin:30px 0 0 0;}
+.procate dl{width:780px;float:left;padding:20px 0;font-size:18px;}
+.procate dl dt{float:left; background:url("../img/jianc.gif")/*tpa=http://www.tuotuokj.com/themes/tuotuokj/Public/assets/img/jianc.gif*/ no-repeat right center;padding:0 10px 0 0;margin:0 5px 0 0;}
+.procate dl dt a{color:#a3cf4b;}
+.procate dl dd{float:left;}
+.procate dl dd a{color:#fff;padding:5px;}
+.procate dl dd a:hover{background:#0050a0;color:#fff;padding:5px;}
+
+.titles{margin:20px auto 0;background:url("../img/protit.gif")/*tpa=http://www.tuotuokj.com/themes/tuotuokj/Public/assets/img/protit.gif*/ no-repeat top left;width:175px;padding:15px 0 0 0;height:55px;color:#285096;font-size:36px;text-align: center;}
+.titles p{font-size:14px;color:#999;padding:10px 0 0 0;}
+
+
+.iproli{width:1200px;overflow:hidden;}
+.iproli ul{width:1230px;float:left;}
+.iproli ul li{float:left;width:380px;height:470px;margin:0 30px 0 0}
+.iproli ul li p{border:5px solid #ccc;width:350px;height:40px; float: left;padding:10px; text-align: center;font-size:16px;}
+
+.iproli ul li a.img{width:380px;height:380px;display:table-cell;vertical-align:middle;text-align:center;*display:block;*font-size:125px;*font-family:Arial;overflow:hidden;}
+.iproli ul li a.img img{vertical-align:middle;height:380px;}
+
+.iabout{background:url("../img/about.jpg")/*tpa=http://www.tuotuokj.com/themes/tuotuokj/Public/assets/img/about.jpg*/ no-repeat;width:1200px;height:380px;}
+.iabout p{padding:90px 20px 0 590px;color:#fff;font-size:14px; line-height:26px; text-indent: 2em;height:150px;}
+.iabout .amore{margin:20px 20px 0 590px;width:120px;height:30px;display: block; text-indent: -9999px;}
+
+
+
+.weare span{font-size:30px; border-bottom: 2px solid #000;padding:0 0 5px 0;height:30px;line-height:30px;}
+.weare p{text-indent:2em;padding:30px 0 0 0;line-height:21px;}
+.wel{width:775px;float:left;}
+.wer{width:400px;float:right;}
+.txta{height:145px;}
+.txtb{float:left;width:330px;}
+
+
+.prointr{background:url("../img/mobile.png")/*tpa=http://www.tuotuokj.com/themes/tuotuokj/Public/assets/img/mobile.png*/ no-repeat right center; height:540px;border-bottom:1px solid #ccc;min-width:1200px;max-width:1200px;}
+.proint{width:690px;float:left;}
+.prointxt{text-indent:2em;font-size:18px;line-height:28px;padding:10px 0;}
+.prointxt a{color:#285096;padding:0 0 0 20px;}
+.dianl{background:url("../img/dian.png")/*tpa=http://www.tuotuokj.com/themes/tuotuokj/Public/assets/img/dian.png*/ no-repeat left center;height:15px;}
+.dianr{background:url("../img/dian.png")/*tpa=http://www.tuotuokj.com/themes/tuotuokj/Public/assets/img/dian.png*/ no-repeat right center;height:15px;}
+/*快速导航*/
+
+.quick{padding:50px 0 0 0;width:900px;float:left;}
+.quick dl{float:left;width:130px;text-align:center;margin:0 150px 0 0;}
+.quick dl dt a{border:1px solid #285096;width:130px;height:130px; border-radius:50%; display: block;background:url("../img/icona.png")/*tpa=http://www.tuotuokj.com/themes/tuotuokj/Public/assets/img/icona.png*/ no-repeat center top #fff;}
+.quick dl dt a:hover{border:1px solid #285096;background:url("../img/icona.png")/*tpa=http://www.tuotuokj.com/themes/tuotuokj/Public/assets/img/icona.png*/ no-repeat center bottom #285096;}
+.quick dl dt a.quickb{border:1px solid #e68232;background:url("../img/iconb.png")/*tpa=http://www.tuotuokj.com/themes/tuotuokj/Public/assets/img/iconb.png*/ no-repeat center top #fff;}
+.quick dl dt a.quickb:hover{border:1px solid #e68232;background:url("../img/iconb.png")/*tpa=http://www.tuotuokj.com/themes/tuotuokj/Public/assets/img/iconb.png*/ no-repeat center bottom #e68232;}
+.quick dl dt a.quickc{border:1px solid #d25050;background:url("../img/iconc.png")/*tpa=http://www.tuotuokj.com/themes/tuotuokj/Public/assets/img/iconc.png*/ no-repeat center top #fff;}
+.quick dl dt a.quickc:hover{border:1px solid #d25050;background:url("../img/iconc.png")/*tpa=http://www.tuotuokj.com/themes/tuotuokj/Public/assets/img/iconc.png*/ no-repeat center bottom #d25050;}
+
+
+.quick dl dd{padding:15px 0;}
+.quick dl dd a{color:#333;font-size:18px;}
+.quick dl dd a:hover{color:#999; text-decoration: none;}
+
+
+.protd{background:url("../img/product.gif")/*tpa=http://www.tuotuokj.com/themes/tuotuokj/Public/assets/img/product.gif*/ no-repeat center top #ccc;height:695px;min-width:1200px;}
+.prtd{width:1200px;margin:0 auto;position:relative;height:700px;}
+
+
+.prtda{float:left;overflow:hidden;width:243px;height:210px;margin:0px;position:absolute;left:33px;top:130px;}
+.mosaic-backdrop{ display:none;position:absolute;top:0;height:130px;width:243px;padding:80px 0 0 0px;text-align:center;}
+.mosaic-backdrop h5{font-size:24px;color:#333;padding:10px 0;}
+.mosaic-backdrop p{font-size:14px;color:#ccc;}
+.mosaic-overlay{display:none;z-index:5;position:absolute;width:100%;height:100%;}
+.prtda .mosaic-overlay {opacity:0;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=00)";filter:alpha(opacity=00);background:url("../img/tdica.png")/*tpa=http://www.tuotuokj.com/themes/tuotuokj/Public/assets/img/tdica.png*/ no-repeat;display:table-cell;vertical-align:middle;text-align:center;}
+.prtda .mosaic-overlay .details{color:#fff;font-size:18px;padding:80px 0 0 0;line-height:24px;}
+
+
+.prtdb{float:left;overflow:hidden;width:243px;height:210px;margin:0px;position:absolute;left:214px;top:234px;}
+.prtdb .mosaic-overlay {opacity:0;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=00)";filter:alpha(opacity=00);background:url("../img/tdicb.png")/*tpa=http://www.tuotuokj.com/themes/tuotuokj/Public/assets/img/tdicb.png*/ no-repeat;display:table-cell;vertical-align:middle;text-align:center;}
+.prtdb .mosaic-overlay .details{color:#fff;font-size:18px;padding:80px 0 0 0;line-height:24px;}
+
+.prtdc{float:left;overflow:hidden;width:243px;height:210px;margin:0px;position:absolute;left:393px;top:128px;}
+.prtdc .mosaic-overlay {opacity:0;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=00)";filter:alpha(opacity=00);background:url("../img/tdicd.png")/*tpa=http://www.tuotuokj.com/themes/tuotuokj/Public/assets/img/tdicd.png*/ no-repeat;display:table-cell;vertical-align:middle;text-align:center;}
+.prtdc .mosaic-overlay .details{color:#fff;font-size:18px;padding:80px 0 0 0;line-height:24px;}
+
+.prtdd{float:left;overflow:hidden;width:243px;height:210px;margin:0px;position:absolute;left:395px;top:336px;}
+.prtdd .mosaic-overlay {opacity:0;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=00)";filter:alpha(opacity=00);background:url("../img/tdice.png")/*tpa=http://www.tuotuokj.com/themes/tuotuokj/Public/assets/img/tdice.png*/ no-repeat;display:table-cell;vertical-align:middle;text-align:center;}
+.prtdd .mosaic-overlay .details{color:#fff;font-size:18px;padding:80px 0 0 0;line-height:24px;}
+
+.prtde{float:left;overflow:hidden;width:243px;height:210px;margin:0px;position:absolute;left:574px;top:231px;}
+.prtde .mosaic-overlay {opacity:0;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=00)";filter:alpha(opacity=00);background:url("../img/tdicf.png")/*tpa=http://www.tuotuokj.com/themes/tuotuokj/Public/assets/img/tdicf.png*/ no-repeat;display:table-cell;vertical-align:middle;text-align:center;}
+.prtde .mosaic-overlay .details{color:#fff;font-size:18px;padding:80px 0 0 0;line-height:24px;}
+
+.prtdf{float:left;overflow:hidden;width:243px;height:210px;margin:0px;position:absolute;left:576px;top:439px;}
+.prtdf .mosaic-overlay {opacity:0;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=00)";filter:alpha(opacity=00);background:url("../img/tdicg.png")/*tpa=http://www.tuotuokj.com/themes/tuotuokj/Public/assets/img/tdicg.png*/ no-repeat;display:table-cell;vertical-align:middle;text-align:center;}
+.prtdf .mosaic-overlay .details{color:#fff;font-size:18px;padding:80px 0 0 0;line-height:24px;}
+
+.prtdg{float:left;overflow:hidden;width:243px;height:210px;margin:0px;position:absolute;left:755px;top:334px;}
+.prtdg .mosaic-overlay {opacity:0;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=00)";filter:alpha(opacity=00);background:url("../img/tdich.png")/*tpa=http://www.tuotuokj.com/themes/tuotuokj/Public/assets/img/tdich.png*/ no-repeat;display:table-cell;vertical-align:middle;text-align:center;}
+.prtdg .mosaic-overlay .details{color:#fff;font-size:18px;padding:80px 0 0 0;line-height:24px;}
+
+.prtdh{float:left;overflow:hidden;width:243px;height:210px;margin:0px;position:absolute;left:934px;top:230px;}
+.prtdh .mosaic-overlay {opacity:0;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=00)";filter:alpha(opacity=00);background:url("../img/tdici.png")/*tpa=http://www.tuotuokj.com/themes/tuotuokj/Public/assets/img/tdici.png*/ no-repeat;display:table-cell;vertical-align:middle;text-align:center;}
+.prtdh .mosaic-overlay .details{color:#fff;font-size:18px;padding:80px 0 0 0;line-height:24px;}
+
+.prtd a{text-decoration: none;}
+
+/*提交留言*/
+.msgbg{background:url("../img/ka.png")/*tpa=http://www.tuotuokj.com/themes/tuotuokj/Public/assets/img/ka.png*/ no-repeat center center;height:530px;min-width:1200px;}
+.msgtit{color:#fff;float:left;width:600px;padding:90px 0 0 120px;}
+.msgtit h2{font-size:48px;height:50px;line-height:50px;}
+.msgtit h3{font-size:22px;height:30px;line-height:30px;padding:20px 0 0 0;}
+.msgtit ul{padding:130px 0 0 60px;}
+.msgtit ul li{font-size:18px;line-height:32px;height:32px; list-style-type: disc;}
+.msg{padding:95px 0 0 0;}
+.msg li{padding:5px 0;}
+.msg .msginp{border-radius:5px;background:#fff;height:45px;width:320px;padding:0 0 0 30px;}
+.msg .msgtex{border-radius:5px;background:#fff;height:85px;width:320px;padding:5px 0 0 30px;}
+.msg .msgsub{border-radius:5px;background:#285096;width:350px;font-size:18px;border:1px solid #e68232;color:#e68232;height:45px; text-align: center; cursor:pointer;}
+.msg .icona{background:url("../img/icoa.gif")/*tpa=http://www.tuotuokj.com/themes/tuotuokj/Public/assets/img/icoa.gif*/ no-repeat 3px 10px #fff;}
+.msg .iconb{background:url("../img/icob.gif")/*tpa=http://www.tuotuokj.com/themes/tuotuokj/Public/assets/img/icob.gif*/ no-repeat 3px 7px #fff;}
+.msg .iconc{background:url("../img/icoc.gif")/*tpa=http://www.tuotuokj.com/themes/tuotuokj/Public/assets/img/icoc.gif*/ no-repeat 3px 7px #fff;}
+.msg .icond{background:url("../img/icod.png")/*tpa=http://www.tuotuokj.com/themes/tuotuokj/Public/assets/img/icod.png*/ no-repeat 5px 12px #fff;}
+
+
+    /*首页 end*/
+
+
+.news{width:590px;height:490px;border:1px solid #c8c8c8;}
+.ntitle{background: #c8c8c8;height:50px;line-height:50px;padding:0 20px;}
+.ntitle h2{float:left;font-size:18px;}
+.ntitle span{float:right;}
+.newspic{padding:20px;height:120px;}
+.newspic img{float:left;margin:0 10px 0 0;}
+.newspic h4{font-size:16px;font-weight:bold;padding:5px 0 0 0;}
+.newspic p{ padding:5px 0 0 0;color:#666;line-height:22px;}
+.newspic p a{color:#f00;}
+.newsli{padding:0 20px;}
+.newsli li{float:left;width:100%; height:35px; line-height:35px;}
+.newsli li h5{background: url("../img/jianb.gif")/*tpa=http://www.tuotuokj.com/themes/tuotuokj/Public/assets/img/jianb.gif*/ no-repeat 0 14px;padding:0 0 0 15px;float:left;font-size:14px;}
+.newsli li span{float:right;font-size:12px;color:#999;}
+
+
+
+
+.prolist{width:950px;height:570px;float:right;overflow:hidden;}
+.prolist ul{width:960px;float:left;}
+.prolist ul li{width:220px;border:1px solid #cfcfcf;height:270px;float:left;margin:0 10px 10px 0;padding:4px;}
+.prolist ul li img{width:220px;height:220px;float:left;}
+.prolist ul li p{width:220px;height:40px;padding:5px 0 0 0;line-height:20px;text-align:center;float:left;}
+
+
+
+.caseli{width:1200px; overflow:hidden;max-width:1200px;}
+.caseli ul{width:1220px;float:left;}
+.caseli ul li{width:285px;float:left;margin:0 20px 0 0;}
+.caseli ul li img{border:1px solid #c8c8c8;}
+.caseli ul li p{width:285px;text-align:center;height:30px;line-height:30px;}
+
+
+
+/*内页开始*/
+.bl10{height:10px;display:block;overflow:hidden;clear:both;}
+.bl25{height:25px;display:block;overflow:hidden;clear:both;}
+.bl70{height:70px;display:block;overflow:hidden;clear:both;}
+.bl80{height:80px;display:block;overflow:hidden;clear:both;}
+
+.location{padding:20px 0;font-size:16px;}
+.aboutus{padding:10px 0 0px;line-height:22px;}
+.aboutus .pic{float:left;width:540px;padding:3px 0;}
+.aboutus .txt{ float:left;width:600px;padding:10px 0;font-size:14px;margin:0 0 0 50px; line-height:28px;}
+.aboutus .txtb{ float:left;width:1200px;padding:10px 0;font-size:14px;margin:0px; line-height:28px;}
+
+.contactus{padding:10px 10px 50px;line-height:28px; height:200px;background:url("../img/contact.png")/*tpa=http://www.tuotuokj.com/themes/tuotuokj/Public/assets/img/contact.png*/ no-repeat center center;}
+.contactus h1{padding:0;font-size:40px;margin:0 0 10px 0;}
+.contactus p{padding:30px 0 0 170px;font-size:40px;}
+.map-canvas{padding:0px;width:1198px;height:650px;border:1px solid #ccc;float:left;}
+.contact-info{width:370px;float:left;padding:10px;}
+.contact-info h5{font-size:24px;font-weight:bold;padding:10px 0;}
+.page{background:#fff;width:100%;margin:0 auto;}
+.pages{width:1200px;margin;0 auto;float:left;max-width:1200px;}
+.pagel{width:240px;float:left;}
+
+
+.pageltit{background:url("../img/fupiao.gif")/*tpa=http://www.tuotuokj.com/themes/tuotuokj/Public/assets/img/fupiao.gif*/no-repeat 40px 13px #646450;color:#7ab15f;padding:20px 0 20px 80px;font-size:24px;height:45px;border-top-left-radius:10px;}
+.pageltit p{color:#fff;font-size:16px;padding:10px 0;}
+
+.pagelnav{padding:43px 0 0 0;background:url("../img/line.gif")/*tpa=http://www.tuotuokj.com/themes/tuotuokj/Public/assets/img/line.gif*/ repeat-x 0 11px;height:50px;margin:30px 0 0 0; text-align:center;}
+
+.pagelnav a{padding:40px 40px 0 40px;background:url("../img/ica.png")/*tpa=http://www.tuotuokj.com/themes/tuotuokj/Public/assets/img/ica.png*/ no-repeat center top;text-align: center; display: inline;color:#666;font-size:18px;}
+.pagelnav a:hover,.pagelnav a.on{background:url("../img/icb.png")/*tpa=http://www.tuotuokj.com/themes/tuotuokj/Public/assets/img/icb.png*/ no-repeat center top; text-decoration: none;color:#285096;}
+.pagelnav.son a{height:40px;line-height:40px;background:url("../img/sjian.gif")/*tpa=http://www.tuotuokj.com/themes/tuotuokj/Public/assets/img/sjian.gif*/ no-repeat 40px 6px;padding:0 0 0 60px;font-size:16px;}
+.pagelnav.son a:hover,.pagelnav li.son a.on{background:url("../img/sjianb.gif")/*tpa=http://www.tuotuokj.com/themes/tuotuokj/Public/assets/img/sjianb.gif*/ no-repeat 40px 6px #fff;}
+
+
+
+.pager{width:900px;float:right;padding:20px 30px;}
+.plocation{border:1px solid  #ddd;background:#eee;padding:10px;}
+.pnewli{padding:20px;margin:10px 0 0 0;}
+.pnewli ul li{float:left;width:100%;height:180px;border-bottom:1px dotted #ccc;margin:0 0 20px 0;}
+.pnewli ul li img{float:left;width:270px;height:165px;margin:0 20px 0 0;}
+.pnewli ul li h3{font-size:18px;}
+.pnewli ul li p{padding:10px 0;}
+.pnewli ul li .time{color:#ccc;}
+.pnewli ul li .time span{ font-size:24px; border-bottom:2px solid #ccc;}
+.pnewli ul li .time p{ font-size:18px;padding:5px 0 0 0;}
+
+
+.pagination{display: inline-block;padding-left: 0;margin: 10px 0;border-radius: 0;}
+.pagination li {display: inline;}
+.pagination li a:hover {border-color: #ff7106;color: #ff7106;background-color: #FFF;}
+.pagination li a,.pagination li span{position: relative;  float: left;  padding: 5px 10px;  font-size: 14px !important;  line-height: 1.42857143 !important;text-decoration: none;  color: #000;  background-color: #fff;  border: 1px solid #e5e5e5;  margin-left: 0px;  }
+.pagination .active span{z-index: 2;  color: #fff;  background-color: #ff7106; border-color: #ff7106; cursor: default;}
+.kcontact{padding:10px;line-height:28px;}
+.kcontact h3{font-weight:bold;font-size:18px;padding:0 0 10px 0;}
+
+.newsdetail{border:1px solid #ddd;padding:20px;margin:10px 0 0 0;}
+.newsdetail h1.title{font-size:32px;background:#f9f9f9;padding:20px 0;text-align:center;}
+.newsdetail .text{text-align:center;font-size:16px;width:100%;padding:10px 0;}
+.bdsharebuttonbox{margin:0 auto;width:245px;}
+
+.detailpic{margin:20px 0;text-align:center;}
+.detailpic a img{border:1px solid #ccc;padding:1px;}
+.detailpic a:hover img{border:1px solid #F90;padding:1px;}
+
+.prdetailtit{ border-bottom:1px solid #ddd;height:30px;line-height:30px;padding:0 0 0 20px; position: relative;}
+.prdetailtit h3{font-size:18px; border:1px solid #ccc;width:100px;border-bottom:none; text-align:center;background:#fff; position: absolute;bottom:-1px;}
+.conn{padding:10px;}
+.pagef{padding-left: 0;margin: 20px 0;  list-style: none;  text-align: center;}
+.pagef li {display: inline;}
+.pagef .previous{float: left;}
+.pagef .next{float: right;}
+.pagef li a,.pagef li span { text-decoration: none; display: inline-block;  padding:10px 14px;  border: 1px solid #ddd;  border-radius: 15px;font-size:16px;}
+.pagef .previous a,.pagef .next a { display: inline-block;  text-overflow: ellipsis;  overflow: hidden;  white-space: nowrap;  border-radius: 10px;}
+.pagef li a:hover, .pagef li a:focus {background-color: #eee;}
+
+.ppicli{width:900px;overflow:hidden;}
+.ppicli ul{width:930px;float:left;}
+.ppicli ul li{width:280px;float:left;height:325px;margin:0 30px 10px 0;}
+.ppicli ul li a.img{width:280px;height:280px;display:table-cell;vertical-align:middle;text-align:center;*display:block;*font-size:125px;*font-family:Arial;overflow:hidden;}
+.ppicli ul li a.img img{vertical-align:middle;width:280px;height:280px;}
+
+.ppicli ul li h3 a{width:268px;float:left;height:43px;line-height:43px;font-size:16px;display:block;text-align:left;padding:0 0 0 10px;border:1px solid #82c864;background:url("../img/pjian.gif")/*tpa=http://www.tuotuokj.com/themes/tuotuokj/Public/assets/img/pjian.gif*/ no-repeat 250px 15px #fff;}
+.ppicli ul li h3 a:hover{border:1px solid #82c864;background:url("../img/pjian.gif")/*tpa=http://www.tuotuokj.com/themes/tuotuokj/Public/assets/img/pjian.gif*/ no-repeat 250px 15px #82c864;text-decoration:none;color:#fff;}
+
+
+/*内页结束*/
+
+
+
+.footer{background:#fff;width:100%;color:#666;clear:both;padding:100px 0 20px 0;min-width:1200px;}
+.footer .footl{float:left;width:420px;height:150px;padding:0 0 0 180px;}
+.footer .footl h2{font-size:86px; font-family: "Arial";font-weight:bold;height:90px;line-height:90px;}
+.footer .footl h3{font-size:45px; font-family: "Arial";font-weight:bold;height:50px;line-height:50px;}
+.footer .footr{float:left;width:600px;height:150px;}
+.footer .footr p{height:50px;line-height:50px;font-size:24px;}
+.footer .footr .icona{background:url("../img/tel.png")/*tpa=http://www.tuotuokj.com/themes/tuotuokj/Public/assets/img/tel.png*/ no-repeat 7px center;padding:0 0 0 40px;}
+.footer .footr .iconb{background:url("../img/email.png")/*tpa=http://www.tuotuokj.com/themes/tuotuokj/Public/assets/img/email.png*/ no-repeat 0 center;padding:0 0 0 40px;}
+.footer .footr .iconc{background:url("../img/ditu.png")/*tpa=http://www.tuotuokj.com/themes/tuotuokj/Public/assets/img/ditu.png*/ no-repeat 7px center;padding:0 0 0 40px;}
+.footer .code{width:682px;margin:0 auto; height:240px;clear:both;padding:10px 0 60px 0;}
+.footer .code ul li{float:left;width:196px;margin:0 70px 0;text-align:center;}
+.footer .code ul li p{font-size:18px;padding:15px 0;}
+
+/*Top按钮*/
+*html{background-image:url(about:blank);background-attachment:fixed;}/*解决IE6下滚动抖动的问题*/
+.tbox{width:50px;float:right;position:fixed;right:10px;bottom:15px;_position:absolute;_bottom:auto;_top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)));_margin-bottom:15px;display:none;}/*解决IE6下不兼容 position:fixed 的问题*/
+.tbox #gotop{width:50px;height:50px;background:url("../img/icon.png")/*tpa=http://www.tuotuokj.com/themes/tuotuokj/Public/assets/img/icon.png*/ no-repeat 0 0;display:block;}
+
