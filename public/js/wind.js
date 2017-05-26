@@ -677,8 +677,10 @@ Wind.ready(function() {
 *wind core
 */
 (function(win) {
-	var root = win.GV.WEB_ROOT+win.GV.JS_ROOT || location.origin + '/public/js/', //在wind.js加载之前定义GV.JS_ROOT
+	var root = win.GV.JS_ROOT , //在wind.js加载之前定义GV.JS_ROOT
+
 		ver = '',
+
 		//定义常用JS组件别名，使用别名加载
 		alias = {
             datePicker         : 'datePicker/datePicker',
@@ -719,7 +721,6 @@ Wind.ready(function() {
 
             layer       : 'layer/skin/layer',
 		};
-
 	//add suffix and version
 	for(var i in alias) {
 		if (alias.hasOwnProperty(i)) {
